@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: purple;
+	background-image:url("zenny.jfif");
+	background-size: cover;
+}
+
+.caixa1{
+	width: 300px;
+	height: 200px;
+	background-color: orange
+	/*background-line: linear-gradient(30ded, red, orange, blue, yellow, green, indigo, violet);*/
+}
+
+div p span{
+	color:white;
+}

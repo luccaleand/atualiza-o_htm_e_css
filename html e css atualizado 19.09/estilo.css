@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+.pai{
+	width:auto;
+	height:auto;
+	margin: 0;
+	overflow: hidden;
+	background-color: yellow;
+}
+.mae{
+	width:auto;
+	height:auto;
+	margin: 0;
+	overflow: hidden;
+	background-color: blue;
+}
+.filho{
+	width:auto;
+	height:auto;
+	margin: 0;
+	overflow: hidden;
+	background-color: red;
+}
+.caixa1{
+	width:50px;
+	height:200px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa2{
+	width:100px;
+	height:100px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa3{
+	width:100px;
+	height:100px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa4{
+	width:150px;
+	height:100px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa5{
+	width:200px;
+	height:100px;
+	margin:10px;
+	float: left;
+	background-color: #D17200;
+}
+/* fim class pai*/
+.caixa6{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa7{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa8{
+	
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: right;
+	background-color: #D17200;
+}
+.caixa9{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: right;
+	background-color: #D17200;
+}
+/*fim class mae*/
+.caixa10{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: left;
+	background-color: #D17200;
+}
+.caixa11{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: left;
+	background-color: paleturquoise;
+}
+.caixa12{
+	width:300px;
+	height:50px;
+	margin: 10px;
+	clear: 	left;
+	background-color: #000DFF;
+}
+.caixa13{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: right;
+	background-color: #D17200;
+}
+.caixa14{
+	width:100px;
+	height:200px;
+	margin: 10px;
+	float: right;
+	background-color: #D17200;
+}
+/*fim class filho*/
