@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<link href="contato.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="cor2">
+<center>
+<div class="largura">
+<h1>Entre em Contato</h1>
+<form method="post">
+<fieldset>
+  <legend>Dados pessoais</legend>
+  <p>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="email válido" required>
+  </p>
+  <p>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" placeholder="nome completo" required>
+  </p>
+  <p>
+    <label for="telefone">telefone</label>
+    <input type="tel" name="tel" placeholder="tel" required>
+  </p>
+</fieldset>
+<!--  ---------------------------------------  -->
+
+<fieldset>
+  <legend>Dados adicionais</legend>
+  <p>
+    <label for="estado">Estado</label>
+    <select name="estado">
+      <option value="Rj">Rio de janeiro</option>
+      <option value="Sp">São Paulo</option>
+      <option value="Es">Espirito Santo</option>
+      <option value="Mg">Minas Gerais</option>
+    </select>
+  </p>
+  <p>
+    <label for="turno">turno</label>
+    <br>
+    <input type="checkbox" name="turno" value="manha">
+    manhã
+    <input type="checkbox" name="turno" value="Tarde">
+    Tarde
+    <input type="checkbox" name="turno" value="Noite">
+    Noite </p>
+  <p>
+    <label for="curso">técnico ti</label>
+    <input type="radio" name="curso" value="ti">
+    <br>
+    <label for="curso">enfermágem</label>
+    <input type="radio" name="curso" value="enfermagem">
+    <br>
+    <label for="curso">Administração</label>
+    <input type="radio" name="curso" value="adminstracao">
+    <br>
+    <label for="curso">Webdesign</label>
+    <input type="radio" name="curso" value="webdesign">
+    <br>
+    <label for="curso">Gestão</label>
+    <input type="radio" name="curso" value="gestão">
+    <br>
+    <label for="curso">Turismo</label>
+    <input type="radio" name="curso" value="turismo">
+  </p>
+</fieldset>
+<!--  ---------------------------------------  -->
+<fieldset>
+  <legend>Mande sua mensage</legend>
+  <p>
+    <label for="mensagem">mensagem</label>
+    <textarea name="mensagem"></textarea>
+  </p>
+  <p>
+    <input type="submit" value="enviar">
+  </p>
+</fieldset>
+</div>
+</div>
+</center>
+</body>
+</html>

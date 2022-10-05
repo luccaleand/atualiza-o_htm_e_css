@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* CSS Document */
+.fundo {
+	width: 400px;
+	height: 700px;
+	background-color: darkgreen;
+	margin: 10px;
+	float: left;
+
+}
+
+.fundo2 {
+	width: 400px;
+	height: 700px;
+	background-color: red;
+	border-left: 1px solid blue;
+	float: left;
+}
+
+.img {
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	color: white;
+	margin: 0px 10px 10px 10px;
+}

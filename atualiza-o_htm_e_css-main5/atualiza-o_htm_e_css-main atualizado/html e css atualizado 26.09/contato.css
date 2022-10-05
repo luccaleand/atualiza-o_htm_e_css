@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.cor{
+	background-color: aqua
+}
+.largura{
+	width: 400px;
+	height: 400px;
+}
+
+body{
+background: rgb(215,125,48);
+background: linear-gradient(90deg, rgba(215,125,48,1) 18%, rgba(120,163,139,1) 42%, rgba(0,212,255,1) 100%);
+}
+

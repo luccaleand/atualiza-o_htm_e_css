@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*https://www.dicionariopopular.com/o-naruto-pode-ser-muito-duro-as-vezes/*/
+/* CSS Document */
+/*-----COMEÇO DESKTOP-----*/
+@media screen and (min-width:1024px) {
+  body {
+    background-color: red;
+  }
+  section{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: darkorange;
+  }
+
+  article{
+    width: 49%;
+    height: auto;
+    background-color: darkcyan;
+  }
+  .imagem2{
+    background-image: url(foto.gif);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+  }
+  .imagem{
+    background: url(o-naruto-pode-ser-um-oouco-duro-as-vezes.jpg )no-repeat;
+  }
+  div {
+    width: 80%;
+    height: 50px;
+    background-color: white;
+  }
+}/*-----FIM DESKTOP-----*/
+
+/*-----COMEÇO TABLETS-----*/
+@media screen and (min-width:481px) and (max-width:1023px) {
+  body {
+    background-color: orange;
+  }
+  .imagem2{
+    background-image: url(foto.gif);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+  }
+  .imagem{
+    background: url(o-naruto-pode-ser-um-oouco-duro-as-vezes.jpg )no-repeat;
+  }
+/*
+  div {
+    width: 50%;
+    height: 200px;
+    marign: auto;
+    background-color: brown;
+  }
+*/
+  div {
+    width: auto;
+    height: auto;
+    marign: auto;
+    background-color: brown;
+  }
+}
+
+/*-----FIM TABLETS-----*/
+/*-----COMEÇO CELULAR-----*/
+@media screen and (max-width:480px) {
+  body {
+    background-color: green;
+  }
+
+  div {
+    width: 20%;
+    height: 800px;
+    float: right;
+    background-color: blue;
+  }
+}
+
+/*-----FIM CELULAR-----*/
